@@ -2,13 +2,13 @@
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
-![GitHub repo size](https://github.com/Paulo-2048/automation-canva-post)
-![GitHub language count](https://github.com/Paulo-2048/automation-canva-post)
-![GitHub forks](https://github.com/Paulo-2048/automation-canva-post)
-![Bitbucket open issues](https://github.com/Paulo-2048/automation-canva-post)
-![Bitbucket open pull requests](https://github.com/Paulo-2048/automation-canva-post)
+![GitHub repo size](https://img.shields.io/github/repo-size/Paulo-2048/automation-canva-post?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/repo-size/Paulo-2048/automation-canva-post?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/repo-size/Paulo-2048/automation-canva-post?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/github/repo-size/Paulo-2048/automation-canva-post?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/github/repo-size/Paulo-2048/automation-canva-post?style=for-the-badge)
 
-<img src="exemplo-image.png" alt="exemplo imagem">
+<img src="example-image.png" alt="Design Criado">
 
 > consiste basicamente em fazer um #scrawper com Puppeteer no site https://lnkd.in/drhxDe3 com #nodejs e colocar os tópicos mais quentes em uma planilha do #google, para depois conseguir resgatar essas informações e utiliza-las criando uma arte gráfica no #canva, fazendo o uploud para o google drive posteriormente.
 
