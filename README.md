@@ -10,7 +10,7 @@
 
 <img src="example-image.png" alt="Design Criado">
 
-> consiste basicamente em fazer um #scrawper com Puppeteer no site https://lnkd.in/drhxDe3 com #nodejs e colocar os tópicos mais quentes em uma planilha do #google, para depois conseguir resgatar essas informações e utiliza-las criando uma arte gráfica no #canva, fazendo o uploud para o google drive posteriormente.
+> O Projeto consiste basicamente em fazer um #scrawper com Puppeteer no site https://lnkd.in/drhxDe3 com #nodejs e colocar os tópicos mais quentes em uma planilha do #google, para depois conseguir resgatar essas informações e utiliza-las criando uma arte gráfica no #canva, fazendo o uploud para o google drive posteriormente.
 
 > Atenção: Grande parte dos seletores e links, terão que ser alterados, removidos ou adicnados de acordo as suas necessidades, visto que eles tendem alterar o nome da classe por exemplo. (Mas qualquer dúvida, chama no Linkedlin que ficarei feliz em ajudar (https://www.linkedin.com/in/paulo-vitor-92174b148/)
 
