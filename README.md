@@ -36,7 +36,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 *   `puppeteer-extra: ^3.1.18,`
 *   `puppeteer-extra-plugin-stealth: ^2.7.8`
 
-## 🚀 Instalando <nome_do_projeto>
+## 🚀 Instalando Automation Canva Post
 
 Para instalar e executar o Projeto, siga estas etapas:
 
@@ -58,7 +58,7 @@ Para instalar e executar o Projeto, siga estas etapas:
 
 * O programa executa ações automáticas, então depois de configurado todo ambiente e  executado o `index.js`, basta esperar e verificar o drive*.
 
-## 📫 Contribuindo para <nome_do_projeto>
+## 📫 Contribuindo para Automation Canva Post
 <!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
 Para contribuir com Projeto, siga estas etapas:
 
