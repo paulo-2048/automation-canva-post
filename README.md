@@ -1,6 +1,6 @@
 # Automation Canva Post
 
-<!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
+<!---These are examples. See https://shields.io for other options or to customize this set of badges. You may want to include dependencies, project status, and license information here--->
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Paulo-2048/automation-canva-post?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/Paulo-2048/automation-canva-post?style=for-the-badge)
@@ -8,65 +8,64 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/Paulo-2048/automation-canva-post?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/Paulo-2048/automation-canva-post?style=for-the-badge)
 
-<img src="example-image.png" alt="Design Criado">
+<img src="example-image.png" alt="Created Design">
 
-> O Projeto consiste basicamente em fazer um #scrawper com Puppeteer no site https://lnkd.in/drhxDe3 com #nodejs e colocar os tópicos mais quentes em uma planilha do #google, para depois conseguir resgatar essas informações e utiliza-las criando uma arte gráfica no #canva, fazendo o uploud para o google drive posteriormente.
+> The project essentially involves creating a #scraper with Puppeteer on the website https://lnkd.in/drhxDe3 using #nodejs and extracting the trending topics to a #google spreadsheet. Later, retrieve this information and use it to create a graphic art on #canva, followed by uploading it to Google Drive.
 
-> Atenção: Grande parte dos seletores e links, terão que ser alterados, removidos ou adicnados de acordo as suas necessidades, visto que eles tendem alterar o nome da classe por exemplo. (Mas qualquer dúvida, chama no Linkedlin que ficarei feliz em ajudar (https://www.linkedin.com/in/paulo-vitor-92174b148/)
+> Note: Many selectors and links may need to be changed, removed, or added according to your needs, as they tend to change, for example, the class name. (But if you have any questions, feel free to contact me on LinkedIn, and I'll be happy to help: https://www.linkedin.com/in/paulo-vitor-92174b148/)
 
-### Ajustes e melhorias
+### Adjustments and improvements
 
-O projeto ainda está finalizado mas está aberto para contribuições futuras:
+The project is not yet finalized but is open to future contributions:
 
-- [x] Scrawpper no https://explodingtopics.com/ (Via Puppeteer)
-- [x] Colocar dados na planilha do Google (Via API)
-- [x] Pegar as dados da planilha (Via API)
-- [x] Criar post no Canva (Via Puppeteer)
-- [x] Salvar post criado em uma pasta do Google Drive
+- [x] Scrape data from https://explodingtopics.com/ (Via Puppeteer)
+- [x] Place data in the Google spreadsheet (Via API)
+- [x] Retrieve data from the spreadsheet (Via API)
+- [x] Create a post on Canva (Via Puppeteer)
+- [x] Save the created post in a Google Drive folder
 
-## 💻 Pré-requisitos
+## 💻 Prerequisites
 
-Antes de começar, verifique se você atendeu aos seguintes requisitos:
-<!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
-* Você instalou a versão mais recente de `Node Js`
-* Dependências: 
-*   `dotenv: ^9.0.2,`
-*   `google-spreadsheet: ^3.1.15,`
-*   `puppeteer: ^9.1.1,`
-*   `puppeteer-extra: ^3.1.18,`
-*   `puppeteer-extra-plugin-stealth: ^2.7.8`
+Before you begin, make sure you have met the following requirements:
+<!---These are just example requirements. Add, duplicate, or remove as necessary--->
+* You have installed the latest version of `Node.js`
+* Dependencies:
+  * `dotenv: ^9.0.2,`
+  * `google-spreadsheet: ^3.1.15,`
+  * `puppeteer: ^9.1.1,`
+  * `puppeteer-extra: ^3.1.18,`
+  * `puppeteer-extra-plugin-stealth: ^2.7.8`
 
-## 🚀 Instalando Automation Canva Post
+## 🚀 Installing Automation Canva Post
 
-Para instalar e executar o Projeto, siga estas etapas:
+To install and run the project, follow these steps:
 
-* Baixe e instale o `Node.js`
-* Faça o git clone desse repositório e abra  no Vs Code (Ou outra idle de preferência)
-* Faça o `npm init` para iniciar uma instância node e criar arquivos o package.json
-* Instale as dependências via `npm` do node, via o próprio terminal
-* Vá em https://console.cloud.google.com/apis/credentials?project=instagram-automation-sheets, para criar uma conta de serviço (Necessária para a API do Google Sheets)
-* Crie o arquivo `.env` e configure as variáveis de ambiente com as informações do "credentials" da conta de serviço, e o login do canva:
-* `GOOGLE_SERVICE_ACCOUNT_EMAIL=`
-* `GOOGLE_PRIVATE_KEY=`
-* `CANVA_LOGIN`
-* `CANVA_PASSWORD=`
-* Linkar sua conta do Canva a sua conta do Google (Fazer login com Google)
-* Para exportar a arte do canva para o Drive ou baixar o arquivo, terá que codificar a parte comentada no `scrawper.js`.
+* Download and install `Node.js`
+* Clone this repository and open it in Vs Code (or your preferred IDE)
+* Run `npm init` to initialize a Node instance and create the package.json files
+* Install dependencies via `npm` in the terminal
+* Go to https://console.cloud.google.com/apis/credentials?project=instagram-automation-sheets to create a service account (Required for the Google Sheets API)
+* Create the `.env` file and configure the environment variables with the information from the service account "credentials" and the Canva login:
+  * `GOOGLE_SERVICE_ACCOUNT_EMAIL=`
+  * `GOOGLE_PRIVATE_KEY=`
+  * `CANVA_LOGIN`
+  * `CANVA_PASSWORD=`
+* Link your Canva account to your Google account (Login with Google)
+* To export the art from Canva to Drive or download the file, you'll need to uncomment the relevant section in `scraper.js`.
 
+## ☕ Using the Project
 
-## ☕ Usando o Projeto
+* The program performs automatic actions, so after setting up the environment and running `index.js`, just wait and check the Drive*.
 
-* O programa executa ações automáticas, então depois de configurado todo ambiente e  executado o `index.js`, basta esperar e verificar o drive*.
+## 📫 Contributing to Automation Canva Post
+<!---If your README is long or if you have any specific processes or steps you want contributors to follow, consider creating a separate CONTRIBUTING.md file--->
+To contribute to the project, follow these steps:
 
-## 📫 Contribuindo para Automation Canva Post
-<!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
-Para contribuir com Projeto, siga estas etapas:
+1. Fork this repository.
+2. Create a branch: `git checkout -b "Your Name"`.
+3. Make your changes and commit them: `git commit -m "Correction/Feature Name"`
+4. Push to the original branch.
+5. Create a pull request.
+6. Send me a message on LinkedIn (https://www.linkedin.com/in/paulo-vitor-92174b148/)
 
-1. Bifurque este repositório.
-2. Crie um branch: `git checkout -b "Seu Nome"`.
-3. Faça suas alterações e confirme-as: `git commit -m "Nome da Correção/Feature"`
-4. Envie para o branch original
-5. Crie a solicitação de pull.
-6. Me envie uma mensagem no Linkedlin (https://www.linkedin.com/in/paulo-vitor-92174b148/)
-
-[⬆ Voltar ao topo](#automation-canva-post)<br>
+[⬆ Back to top](#automation-canva-post)<br>
